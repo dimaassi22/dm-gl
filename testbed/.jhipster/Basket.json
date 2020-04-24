@@ -42,7 +42,7 @@
             "otherEntityField": "id"
         }
     ],
-    "changelogDate": "20200424112400",
+    "changelogDate": "20200424132400",
     "javadoc": "The Basket entity.",
     "entityTableName": "basket",
     "dto": "no",
