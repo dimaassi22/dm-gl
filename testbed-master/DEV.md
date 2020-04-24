@@ -1,3 +1,4 @@
+
 https://github.com/mastering-microservices/tutorial/blob/master/monolith-mvn.md
 
 ```
@@ -88,22 +89,19 @@ INFO! Congratulations, JHipster execution is complete!
 
 # Dockers
 
-```$ ls src/main/docker/
+``` $ ls src/main/docker/
 app.yml             grafana             monitoring.yml      prometheus
 docker-registry.yml jenkins.yml         postgresql.yml      sonar.yml
 ```
 
 # SONAR
-
 ```
 docker-compose -f src/main/docker/sonar.yml up -d
 docker-compose -f src/main/docker/sonar.yml logs -f
 ```
-
 Attendez qu'il soit démarré et prêt au service.
 
 Lancez l'analyseur SonarQube
-
 ```bash
 # mkdir -p /Users/npalix/Build/genie-log/coopcycle/target/test-results/integrationTest
 yarn run test
@@ -112,7 +110,6 @@ yarn run test
 ```
 
 Visualisez le rapport de l'analyseur SonarQube
-
 ```bash
 open http://localhost:9001
 ```
