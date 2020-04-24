@@ -27,7 +27,7 @@
             "ownerSide": true
         }
     ],
-    "changelogDate": "20200423165500",
+    "changelogDate": "20200424112300",
     "javadoc": "The Cooperative entity.",
     "entityTableName": "cooperative",
     "dto": "no",

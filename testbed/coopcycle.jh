@@ -99,7 +99,5 @@ relationship ManyToOne {
 relationship OneToOne {
     Basket{user} to User{basket}
 Basket{course} to Course{basket}
-    
+
 }
-
-
